@@ -81,7 +81,7 @@ services:
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
       - KAFKA_TOPIC=test-topic
       - CHUNK_TOPIC=chunk-topic
-      - CHUNK_SIZE=100000
+      - CHUNK_SIZE=1000
       - LOG_FILE_PATH=/logs/data_processing.log
     ports:
       - "8001:8001"
@@ -123,6 +123,8 @@ services:
       LOCUST_RUN_TIME: 5m
     networks:
     - etl-network
+    ports:
+      - "8089:8089"
 
 
   prometheus:

@@ -1,3 +1,5 @@
+# locust/Dockerfile
+
 FROM python:3.11-slim
 
 WORKDIR /locust
@@ -7,6 +9,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8089
+RUN chmod +x start.sh
 
-CMD locust -f locustfile.py --headless -u "${LOCUST_USERS}" -r "${LOCUST_SPAWN_RATE}" --run-time "${LOCUST_RUN_TIME}"
+EXPOSE 8089  
+EXPOSE 8000  
+
+CMD ["./start.sh"]

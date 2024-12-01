@@ -617,3 +617,641 @@
 2024-12-01 15:08:27,685 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 264.
 2024-12-01 15:08:29,334 - ingestion - INFO - Stored 'content/test_file.txt' in MinIO.
 2024-12-01 15:08:29,337 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 265.
+2024-12-01 15:51:05,507 - ingestion - INFO - Bucket 'mybucket' already exists.
+2024-12-01 15:51:05,554 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-01 15:51:05,674 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:05,675 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:07,266 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:07,266 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:11,281 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:11,282 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:13,416 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:13,416 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:15,768 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:15,769 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:20,302 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:20,302 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:25,178 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:25,178 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:27,588 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:27,588 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:33,836 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:33,836 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:37,960 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:37,960 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:41,475 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:41,476 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:45,430 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:45,430 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:46,927 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:46,928 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:48,633 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:48,633 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:51,152 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:51,152 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:55,924 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:55,924 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:51:57,338 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:51:57,338 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:00,167 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:00,167 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:06,975 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:06,975 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:11,264 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:11,264 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:14,108 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:14,108 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:17,826 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:17,826 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:18,989 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:18,990 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:21,503 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:21,504 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:24,590 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:24,590 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:25,781 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:25,781 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:28,376 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:28,376 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:29,724 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:29,724 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:34,627 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:34,627 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:40,875 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:40,875 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:44,220 - ingestion - ERROR - Failed to fetch data from URL: http://locust:8000/test_file.txt, Status Code: 404
+2024-12-01 15:52:44,220 - ingestion - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "/app/routes.py", line 27, in upload_file
+    raise HTTPException(status_code=400, detail="Failed to fetch data from URL.")
+fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
+2024-12-01 15:52:56,998 - ingestion - INFO - Bucket 'mybucket' already exists.
+2024-12-01 15:52:57,042 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-01 15:52:59,930 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:00,156 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 266.
+2024-12-01 15:53:00,170 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:00,174 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 267.
+2024-12-01 15:53:00,188 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:00,190 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 268.
+2024-12-01 15:53:02,968 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:02,972 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 269.
+2024-12-01 15:53:02,986 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:02,989 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 270.
+2024-12-01 15:53:03,000 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:03,003 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 271.
+2024-12-01 15:53:04,423 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:04,427 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 272.
+2024-12-01 15:53:04,441 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:04,444 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 273.
+2024-12-01 15:53:04,457 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:04,459 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 274.
+2024-12-01 15:53:11,230 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:11,233 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 275.
+2024-12-01 15:53:11,248 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:11,251 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 276.
+2024-12-01 15:53:11,262 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:11,265 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 277.
+2024-12-01 15:53:15,284 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:15,286 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 278.
+2024-12-01 15:53:15,299 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:15,301 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 279.
+2024-12-01 15:53:15,314 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:15,317 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 280.
+2024-12-01 15:53:18,271 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:18,274 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 281.
+2024-12-01 15:53:18,287 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:18,290 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 282.
+2024-12-01 15:53:18,306 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:18,308 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 283.
+2024-12-01 15:53:20,250 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:20,253 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 284.
+2024-12-01 15:53:20,268 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:20,271 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 285.
+2024-12-01 15:53:20,284 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:20,287 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 286.
+2024-12-01 15:53:21,483 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:21,485 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 287.
+2024-12-01 15:53:21,498 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:21,500 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 288.
+2024-12-01 15:53:21,514 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:21,516 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 289.
+2024-12-01 15:53:26,211 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:26,214 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 290.
+2024-12-01 15:53:26,228 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:26,231 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 291.
+2024-12-01 15:53:26,247 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:26,249 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 292.
+2024-12-01 15:53:27,397 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:27,400 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 293.
+2024-12-01 15:53:27,417 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:27,419 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 294.
+2024-12-01 15:53:27,433 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:27,436 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 295.
+2024-12-01 15:53:29,133 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:29,136 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 296.
+2024-12-01 15:53:29,151 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:29,157 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 297.
+2024-12-01 15:53:29,171 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:29,173 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 298.
+2024-12-01 15:53:31,282 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:31,284 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 299.
+2024-12-01 15:53:31,297 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:31,299 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 300.
+2024-12-01 15:53:31,314 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:31,317 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 301.
+2024-12-01 15:53:35,435 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:35,438 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 302.
+2024-12-01 15:53:35,453 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:35,456 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 303.
+2024-12-01 15:53:35,472 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:35,474 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 304.
+2024-12-01 15:53:36,705 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:36,708 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 305.
+2024-12-01 15:53:36,721 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:36,723 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 306.
+2024-12-01 15:53:36,737 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:36,740 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 307.
+2024-12-01 15:53:38,455 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:38,457 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 308.
+2024-12-01 15:53:38,470 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:38,472 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 309.
+2024-12-01 15:53:38,485 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:38,488 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 310.
+2024-12-01 15:53:40,254 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:40,256 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 311.
+2024-12-01 15:53:40,271 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:40,273 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 312.
+2024-12-01 15:53:40,288 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:40,290 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 313.
+2024-12-01 15:53:46,343 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:46,346 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 314.
+2024-12-01 15:53:46,359 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:46,361 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 315.
+2024-12-01 15:53:46,376 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:46,378 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 316.
+2024-12-01 15:53:50,666 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:50,668 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 317.
+2024-12-01 15:53:50,681 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:50,684 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 318.
+2024-12-01 15:53:50,697 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:50,699 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 319.
+2024-12-01 15:53:52,157 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:52,159 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 320.
+2024-12-01 15:53:52,171 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:52,173 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 321.
+2024-12-01 15:53:52,187 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:52,189 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 322.
+2024-12-01 15:53:56,039 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:53:56,042 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 323.
+2024-12-01 15:53:56,058 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:53:56,060 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 324.
+2024-12-01 15:53:56,077 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:53:56,079 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 325.
+2024-12-01 15:54:00,146 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:00,148 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 326.
+2024-12-01 15:54:00,160 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:00,161 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 327.
+2024-12-01 15:54:00,174 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:00,175 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 328.
+2024-12-01 15:54:03,151 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:03,154 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 329.
+2024-12-01 15:54:03,166 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:03,167 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 330.
+2024-12-01 15:54:03,178 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:03,180 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 331.
+2024-12-01 15:54:06,425 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:06,427 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 332.
+2024-12-01 15:54:06,440 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:06,443 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 333.
+2024-12-01 15:54:06,456 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:06,458 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 334.
+2024-12-01 15:54:25,901 - ingestion - INFO - Bucket 'mybucket' already exists.
+2024-12-01 15:54:25,965 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-01 15:54:30,119 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:30,135 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 335.
+2024-12-01 15:54:30,148 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:30,151 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 336.
+2024-12-01 15:54:30,163 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:30,165 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 337.
+2024-12-01 15:54:32,706 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:32,711 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 338.
+2024-12-01 15:54:32,728 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:32,731 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 339.
+2024-12-01 15:54:32,743 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:32,746 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 340.
+2024-12-01 15:54:36,879 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:36,881 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 341.
+2024-12-01 15:54:36,893 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:36,895 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 342.
+2024-12-01 15:54:36,906 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:36,908 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 343.
+2024-12-01 15:54:38,015 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:38,017 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 344.
+2024-12-01 15:54:38,029 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:38,031 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 345.
+2024-12-01 15:54:38,042 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:38,044 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 346.
+2024-12-01 15:54:42,046 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:42,051 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 347.
+2024-12-01 15:54:42,065 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:42,068 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 348.
+2024-12-01 15:54:42,081 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:42,083 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 349.
+2024-12-01 15:54:48,859 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:54:48,862 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 350.
+2024-12-01 15:54:48,878 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:54:48,880 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 351.
+2024-12-01 15:54:48,894 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:54:48,897 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 352.
+2024-12-01 15:55:09,153 - ingestion - INFO - Bucket 'mybucket' already exists.
+2024-12-01 15:55:09,216 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-01 15:55:13,456 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:13,474 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 353.
+2024-12-01 15:55:13,489 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:13,492 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 354.
+2024-12-01 15:55:13,505 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:13,508 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 355.
+2024-12-01 15:55:15,389 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:15,394 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 356.
+2024-12-01 15:55:15,409 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:15,411 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 357.
+2024-12-01 15:55:15,423 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:15,426 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 358.
+2024-12-01 15:55:21,980 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:21,983 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 359.
+2024-12-01 15:55:21,995 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:21,998 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 360.
+2024-12-01 15:55:22,010 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:22,013 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 361.
+2024-12-01 15:55:24,495 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:24,498 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 362.
+2024-12-01 15:55:24,511 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:24,515 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 363.
+2024-12-01 15:55:24,531 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:24,534 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 364.
+2024-12-01 15:55:28,656 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:28,659 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 365.
+2024-12-01 15:55:28,684 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:28,686 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 366.
+2024-12-01 15:55:28,706 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:28,713 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 367.
+2024-12-01 15:55:30,451 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:30,453 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 368.
+2024-12-01 15:55:30,465 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:30,467 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 369.
+2024-12-01 15:55:30,481 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:30,483 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 370.
+2024-12-01 15:55:33,182 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:33,184 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 371.
+2024-12-01 15:55:33,198 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:33,200 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 372.
+2024-12-01 15:55:33,214 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:33,215 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 373.
+2024-12-01 15:55:35,145 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:35,147 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 374.
+2024-12-01 15:55:35,161 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:35,163 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 375.
+2024-12-01 15:55:35,177 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:35,179 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 376.
+2024-12-01 15:55:36,968 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:36,969 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 377.
+2024-12-01 15:55:36,987 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:36,989 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 378.
+2024-12-01 15:55:37,002 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:37,004 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 379.
+2024-12-01 15:55:41,241 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:41,243 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 380.
+2024-12-01 15:55:41,257 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:41,259 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 381.
+2024-12-01 15:55:41,273 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:41,275 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 382.
+2024-12-01 15:55:44,368 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:44,370 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 383.
+2024-12-01 15:55:44,385 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:44,387 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 384.
+2024-12-01 15:55:44,402 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:44,404 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 385.
+2024-12-01 15:55:47,325 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:47,327 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 386.
+2024-12-01 15:55:47,342 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:47,344 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 387.
+2024-12-01 15:55:47,358 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:47,360 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 388.
+2024-12-01 15:55:53,582 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:53,584 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 389.
+2024-12-01 15:55:53,599 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:53,601 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 390.
+2024-12-01 15:55:53,616 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:53,617 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 391.
+2024-12-01 15:55:56,040 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:55:56,042 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 392.
+2024-12-01 15:55:56,056 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:55:56,058 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 393.
+2024-12-01 15:55:56,072 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:55:56,074 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 394.
+2024-12-01 15:56:00,309 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:00,311 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 395.
+2024-12-01 15:56:00,326 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:00,327 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 396.
+2024-12-01 15:56:00,341 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:00,342 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 397.
+2024-12-01 15:56:04,190 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:04,191 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 398.
+2024-12-01 15:56:04,207 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:04,209 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 399.
+2024-12-01 15:56:04,226 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:04,228 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 400.
+2024-12-01 15:56:07,871 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:07,872 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 401.
+2024-12-01 15:56:07,889 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:07,890 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 402.
+2024-12-01 15:56:07,906 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:07,908 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 403.
+2024-12-01 15:56:10,760 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:10,762 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 404.
+2024-12-01 15:56:10,778 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:10,779 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 405.
+2024-12-01 15:56:10,796 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:10,798 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 406.
+2024-12-01 15:56:11,905 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:11,907 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 407.
+2024-12-01 15:56:11,920 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:11,922 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 408.
+2024-12-01 15:56:11,936 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:11,937 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 409.
+2024-12-01 15:56:16,241 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:16,243 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 410.
+2024-12-01 15:56:16,258 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:16,259 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 411.
+2024-12-01 15:56:16,274 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:16,275 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 412.
+2024-12-01 15:56:18,038 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:18,040 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 413.
+2024-12-01 15:56:18,055 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:18,056 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 414.
+2024-12-01 15:56:18,072 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:18,074 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 415.
+2024-12-01 15:56:19,302 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:19,304 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 416.
+2024-12-01 15:56:19,322 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:19,325 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 417.
+2024-12-01 15:56:19,343 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:19,345 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 418.
+2024-12-01 15:56:21,589 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:21,590 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 419.
+2024-12-01 15:56:21,605 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:21,606 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 420.
+2024-12-01 15:56:21,622 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:21,623 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 421.
+2024-12-01 15:56:27,245 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:27,247 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 422.
+2024-12-01 15:56:27,260 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:27,261 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 423.
+2024-12-01 15:56:27,277 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:27,279 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 424.
+2024-12-01 15:56:29,876 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:29,878 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 425.
+2024-12-01 15:56:29,892 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:29,893 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 426.
+2024-12-01 15:56:29,907 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:29,909 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 427.
+2024-12-01 15:56:31,607 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:31,608 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 428.
+2024-12-01 15:56:31,621 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:31,622 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 429.
+2024-12-01 15:56:31,635 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:31,637 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 430.
+2024-12-01 15:56:34,215 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:34,217 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 431.
+2024-12-01 15:56:34,231 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:34,233 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 432.
+2024-12-01 15:56:34,248 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:34,250 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 433.
+2024-12-01 15:56:38,798 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:38,800 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 434.
+2024-12-01 15:56:38,821 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:38,822 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 435.
+2024-12-01 15:56:38,837 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:38,839 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 436.
+2024-12-01 15:56:41,612 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:41,614 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 437.
+2024-12-01 15:56:41,627 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:41,629 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 438.
+2024-12-01 15:56:41,642 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:41,643 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 439.
+2024-12-01 15:56:44,207 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:44,208 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 440.
+2024-12-01 15:56:44,223 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:44,225 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 441.
+2024-12-01 15:56:44,239 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:44,240 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 442.
+2024-12-01 15:56:47,746 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:47,747 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 443.
+2024-12-01 15:56:47,761 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:47,762 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 444.
+2024-12-01 15:56:47,777 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:47,778 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 445.
+2024-12-01 15:56:50,898 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:50,899 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 446.
+2024-12-01 15:56:50,913 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:50,914 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 447.
+2024-12-01 15:56:50,929 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:50,930 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 448.
+2024-12-01 15:56:54,187 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:54,189 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 449.
+2024-12-01 15:56:54,204 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:54,205 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 450.
+2024-12-01 15:56:54,220 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:54,221 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 451.
+2024-12-01 15:56:58,477 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:56:58,479 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 452.
+2024-12-01 15:56:58,493 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:56:58,495 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 453.
+2024-12-01 15:56:58,510 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:56:58,511 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 454.
+2024-12-01 15:57:01,943 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:01,944 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 455.
+2024-12-01 15:57:01,962 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:01,964 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 456.
+2024-12-01 15:57:01,979 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:01,981 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 457.
+2024-12-01 15:57:03,658 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:03,659 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 458.
+2024-12-01 15:57:03,673 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:03,675 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 459.
+2024-12-01 15:57:03,689 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:03,691 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 460.
+2024-12-01 15:57:05,023 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:05,025 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 461.
+2024-12-01 15:57:05,039 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:05,040 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 462.
+2024-12-01 15:57:05,054 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:05,055 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 463.
+2024-12-01 15:57:09,376 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:09,377 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 464.
+2024-12-01 15:57:09,391 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:09,392 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 465.
+2024-12-01 15:57:09,406 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:09,407 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 466.
+2024-12-01 15:57:13,487 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:13,488 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 467.
+2024-12-01 15:57:13,502 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:13,504 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 468.
+2024-12-01 15:57:13,518 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:13,519 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 469.
+2024-12-01 15:57:15,923 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:15,924 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 470.
+2024-12-01 15:57:15,937 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:15,939 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 471.
+2024-12-01 15:57:15,952 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:15,953 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 472.
+2024-12-01 15:57:18,367 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:18,368 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 473.
+2024-12-01 15:57:18,382 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:18,383 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 474.
+2024-12-01 15:57:18,397 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:18,398 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 475.
+2024-12-01 15:57:21,695 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:21,696 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 476.
+2024-12-01 15:57:21,709 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:21,710 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 477.
+2024-12-01 15:57:21,723 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:21,724 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 478.
+2024-12-01 15:57:23,398 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:23,400 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 479.
+2024-12-01 15:57:23,412 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:23,413 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 480.
+2024-12-01 15:57:23,424 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:23,425 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 481.
+2024-12-01 15:57:25,847 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:25,848 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 482.
+2024-12-01 15:57:25,859 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:25,860 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 483.
+2024-12-01 15:57:25,874 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:25,876 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 484.
+2024-12-01 15:57:32,624 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-01 15:57:32,625 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 485.
+2024-12-01 15:57:32,636 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-01 15:57:32,637 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 486.
+2024-12-01 15:57:32,649 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-01 15:57:32,650 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 487.

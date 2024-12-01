@@ -17,15 +17,18 @@ class IngestionUser(HttpUser):
             logger.info(f"Starting load test against host: {self.host}")
 
     @task
-    def upload_file(self):
-        logger.info("Executing upload_file task")
-        files = {
-            'file': ('test_file.txt', 'This is a test file for upload.', 'text/plain')
-        }
-        with self.client.post("/upload/", files=files, catch_response=True) as response:
-            if response.status_code != 200:
-                logger.error(f"Failed to upload file: {response.text}")
-                response.failure(f"Failed to upload file: {response.text}")
-            else:
-                logger.info("File uploaded successfully")
-                response.success()
+    def send_url(self):
+        logger.info("Executing send_url task")
+        # List files in the content directory
+        files = os.listdir('content')  # You can dynamically list files if needed
+        for file_name in files:
+            # The ingestion service will fetch the file from the Locust service
+            file_url = f"http://locust:8000/{file_name}"
+            payload = {'url': file_url}
+            with self.client.post("/upload/", json=payload, catch_response=True) as response:
+                if response.status_code != 200:
+                    logger.error(f"Failed to send URL: Status Code {response.status_code}, Response: {response.text}")
+                    response.failure(f"Failed to send URL: Status Code {response.status_code}, Response: {response.text}")
+                else:
+                    logger.info("URL sent successfully")
+                    response.success()
