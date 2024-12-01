@@ -1,7 +1,7 @@
 # docker-compose.yml
 
 networks:
-  app-tier:
+  etl-network:
     driver: bridge
 
 services:
@@ -9,7 +9,7 @@ services:
     image: 'bitnami/kafka:latest'
     container_name: kafka
     networks:
-      - app-tier
+      - etl-network
     environment:
       # Kafka KRaft Mode Configuration
       - KAFKA_CFG_NODE_ID=0
@@ -33,7 +33,7 @@ services:
     image: minio/minio:latest
     container_name: minio
     networks:
-      - app-tier
+      - etl-network
     environment:
       - MINIO_ROOT_USER=minioadmin
       - MINIO_ROOT_PASSWORD=minioadmin
@@ -49,7 +49,7 @@ services:
     build: ./ingestion
     container_name: ingestion_service
     networks:
-      - app-tier
+      - etl-network
     environment:
       - MINIO_ENDPOINT=minio:9000
       - MINIO_ACCESS_KEY=minioadmin
@@ -71,7 +71,7 @@ services:
     build: ./processing
     container_name: processing_service
     networks:
-      - app-tier
+      - etl-network
     environment:
       - MINIO_ENDPOINT=minio:9000
       - MINIO_ACCESS_KEY=minioadmin
@@ -96,7 +96,7 @@ services:
     build: ./retrieval
     container_name: retrieval_service
     networks:
-      - app-tier
+      - etl-network
     environment:
       - MINIO_ENDPOINT=minio:9000
       - MINIO_ACCESS_KEY=minioadmin
@@ -111,11 +111,25 @@ services:
       - minio
     restart: unless-stopped
 
+  locust:
+    build: ./locust
+    container_name: locust_service
+    depends_on:
+      - ingestion
+    environment:
+      LOCUST_HOST: http://ingestion:8000
+      LOCUST_USERS: 1
+      LOCUST_SPAWN_RATE: 1
+      LOCUST_RUN_TIME: 5m
+    networks:
+    - etl-network
+
+
   prometheus:
     image: prom/prometheus:latest
     container_name: prometheus
     networks:
-      - app-tier
+      - etl-network
     ports:
       - "9090:9090"
     volumes:
@@ -130,7 +144,7 @@ services:
     image: grafana/grafana:latest
     container_name: grafana
     networks:
-      - app-tier
+      - etl-network
     ports:
       - "3000:3000"
     environment:

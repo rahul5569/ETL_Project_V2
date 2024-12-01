@@ -7159,3 +7159,925 @@
 2024-12-01 12:01:03,278 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_romeo-and-juliet.txt_chunk_2.txt', 'original_file': 'content/romeo-and-juliet.txt', 'chunk_index': 2, 'total_chunks': 2}
 2024-12-01 12:01:03,278 - retrieval - INFO - Retrieving chunk 'chunks/content_romeo-and-juliet.txt_chunk_2.txt' from bucket 'processed-bucket'.
 2024-12-01 12:01:03,280 - retrieval - INFO - Retrieved chunk 'chunks/content_romeo-and-juliet.txt_chunk_2.txt' of size 67438 bytes.
+2024-12-01 14:22:26,087 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:22:26,139 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:22:28,367 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:22:28,418 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:22:30,356 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:22:30,474 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:26:30,370 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:26:30,422 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:26:32,792 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:26:32,844 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:26:34,728 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:26:34,847 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:32:48,361 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:32:48,412 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:32:50,345 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:32:50,397 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:32:52,397 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:32:52,511 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:34:18,458 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:34:18,510 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:34:20,534 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:34:20,585 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:34:22,493 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:34:22,608 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:37:47,845 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:37:47,896 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:37:49,767 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:37:49,818 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:37:51,530 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:37:51,661 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:40:47,389 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:40:47,441 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:40:49,877 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:40:49,929 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:40:51,682 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:40:51,796 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:43:08,627 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:43:08,678 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:43:10,957 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:43:11,009 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:43:13,208 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:43:13,321 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:49:32,026 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:49:32,077 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:49:36,559 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:49:36,611 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:49:38,462 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:49:38,578 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:50:45,163 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:50:45,214 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:50:48,077 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:50:48,129 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:50:49,878 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:50:49,993 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 14:54:34,406 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:54:34,457 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 14:54:37,704 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 14:54:37,835 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 15:00:20,751 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:00:20,802 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 15:00:23,984 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:00:24,035 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 15:00:26,407 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:00:26,526 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 15:06:25,413 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:06:25,465 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 15:06:27,909 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:06:27,961 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 15:06:29,878 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:06:29,989 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 15:06:39,067 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,067 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,117 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,120 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,120 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,168 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,168 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,168 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,170 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,170 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,170 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,220 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,220 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,220 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,242 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,242 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,242 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,307 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,309 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,309 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,311 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,311 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,311 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,313 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,313 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,313 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,315 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,315 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,315 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,316 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,317 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,317 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,318 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,318 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,318 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,320 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,320 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,320 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,321 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,321 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,321 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,323 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,323 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,323 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,325 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,325 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,325 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,326 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,327 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,327 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,328 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,329 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,329 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,331 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,331 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,331 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,332 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,333 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,333 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,334 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,334 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,335 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,336 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,336 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,336 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,338 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,338 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,338 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,340 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,340 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,340 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,342 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,360 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,360 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,362 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,371 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,371 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,373 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,382 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,382 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,384 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,393 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,393 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,394 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,404 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,404 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,406 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,415 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,415 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,416 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,425 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,425 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,426 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,436 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,436 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,438 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,446 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,446 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,448 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,457 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,457 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,458 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,468 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,468 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,469 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,478 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,478 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,480 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,489 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,489 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,490 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,500 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,500 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,501 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,510 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,510 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,512 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,522 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,522 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,523 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,724 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,724 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,726 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:39,965 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:39,965 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:39,968 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:40,178 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:40,178 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:40,180 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:40,190 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:40,190 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:40,192 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:40,298 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:40,298 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:40,300 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:40,617 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:40,618 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:40,619 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:41,435 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:41,435 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:41,436 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:41,462 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:41,462 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:41,464 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:41,523 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:41,523 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:41,525 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:41,581 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:41,581 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:41,582 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:41,657 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:41,657 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:41,658 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:42,443 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:42,444 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:42,446 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:42,516 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:42,517 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:42,519 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:44,840 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:44,840 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:44,842 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:44,983 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:44,983 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:44,985 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:45,625 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:45,626 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:45,628 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:45,912 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:45,913 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:45,915 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:46,496 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:46,497 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:46,498 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:46,621 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:46,621 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:46,623 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:46,916 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:46,916 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:46,919 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:47,034 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:47,035 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:47,036 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:47,709 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:47,709 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:47,710 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:47,866 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:47,867 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:47,868 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:48,015 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:48,016 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:48,017 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:48,430 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:48,430 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:48,432 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:48,455 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:48,455 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:48,457 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:48,869 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:48,870 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:48,871 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:48,884 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:48,884 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:48,885 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:49,272 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:49,272 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:49,274 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:49,951 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:49,951 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:49,953 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:50,371 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:50,372 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:50,374 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:50,900 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:50,900 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:50,902 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:50,928 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:50,928 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:50,930 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:50,939 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:50,939 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:50,941 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:51,271 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:51,271 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:51,273 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:51,505 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:51,505 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:51,506 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:51,617 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:51,617 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:51,619 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:52,098 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:52,098 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:52,100 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:52,200 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:52,200 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:52,202 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:52,360 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:52,361 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:52,363 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:52,518 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:52,518 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:52,520 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:53,019 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:53,019 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:53,021 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:53,354 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:53,354 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:53,356 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:53,379 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:53,380 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:53,381 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:53,731 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:53,731 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:53,733 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:54,351 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:54,351 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:54,353 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:54,499 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:54,500 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:54,501 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:54,647 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:54,647 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:54,649 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:54,692 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:54,693 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:54,694 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:54,787 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:54,788 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:54,790 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:55,358 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:55,358 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:55,359 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:55,937 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:55,937 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:55,939 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:56,107 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:56,107 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:56,109 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:56,848 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:56,849 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:56,850 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:57,050 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:57,051 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:57,053 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:57,392 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:57,393 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:57,395 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:57,525 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:57,525 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:57,527 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:57,598 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:57,598 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:57,600 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:58,133 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:58,133 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:58,135 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:58,619 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:58,619 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:58,621 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:59,057 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:59,057 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:59,059 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:59,134 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:59,134 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:59,136 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:59,532 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:59,533 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:59,534 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:59,549 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:59,549 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:59,551 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:59,575 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:59,575 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:59,577 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:06:59,733 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:06:59,734 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:06:59,736 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:00,305 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:00,305 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:00,307 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:00,316 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:00,316 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:00,317 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:00,426 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:00,427 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:00,429 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:00,915 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:00,915 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:00,917 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:01,866 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:01,867 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:01,868 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:02,098 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:02,099 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:02,100 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:02,385 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:02,386 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:02,387 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:02,693 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:02,694 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:02,695 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:03,017 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:03,018 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:03,019 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:03,260 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:03,260 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:03,262 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:03,300 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:03,300 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:03,301 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:03,499 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:03,499 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:03,501 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:04,062 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:04,062 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:04,063 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:04,091 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:04,091 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:04,093 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:04,652 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:04,652 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:04,654 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:04,771 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:04,772 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:04,773 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:04,798 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:04,799 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:04,800 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:04,849 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:04,849 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:04,851 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:04,937 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:04,938 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:04,939 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:05,859 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:05,860 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:05,862 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:06,546 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:06,546 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:06,548 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:06,703 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:06,703 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:06,705 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:07,542 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:07,543 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:07,544 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:08,087 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:08,087 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:08,089 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:08,134 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:08,134 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:08,136 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:08,270 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:08,270 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:08,272 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:08,421 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:08,421 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:08,423 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:08,434 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:08,435 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:08,436 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:08,622 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:08,622 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:08,623 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:09,089 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:09,089 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:09,091 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:09,471 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:09,471 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:09,473 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:09,631 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:09,631 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:09,633 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:09,994 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:09,994 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:09,996 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:10,248 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:10,249 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:10,251 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:10,515 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:10,517 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:10,519 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:10,885 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:10,885 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:10,887 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:12,120 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:12,120 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:12,122 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:12,407 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:12,407 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:12,409 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:12,437 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:12,437 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:12,439 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:13,320 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:13,321 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:13,322 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:13,429 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:13,429 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:13,431 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:13,603 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:13,603 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:13,605 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:13,641 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:13,642 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:13,643 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:13,760 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:13,760 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:13,762 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:14,174 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:14,175 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:14,177 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:14,297 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:14,297 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:14,299 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:14,551 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:14,552 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:14,553 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:16,474 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:16,474 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:16,476 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:16,762 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:16,763 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:16,764 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:17,498 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:17,499 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:17,501 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:17,752 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:17,752 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:17,754 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:18,022 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:18,023 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:18,024 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:18,145 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:18,145 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:18,147 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:18,205 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:18,205 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:18,207 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:18,217 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:18,217 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:18,219 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:18,876 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:18,877 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:18,878 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:19,520 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:19,521 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:19,522 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:19,545 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:19,545 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:19,546 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:19,707 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:19,708 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:19,709 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:19,800 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:19,800 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:19,802 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:20,281 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:20,281 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:20,282 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:20,647 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:20,647 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:20,649 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:20,853 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:20,853 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:20,855 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:21,065 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:21,065 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:21,067 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:21,347 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:21,347 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:21,349 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:21,550 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:21,550 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:21,551 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:21,955 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:21,956 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:21,958 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:22,115 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:22,115 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:22,118 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:22,441 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:22,441 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:22,443 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:22,885 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:22,885 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:22,887 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:23,922 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:23,923 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:23,924 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:23,986 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:23,986 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:23,987 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:24,138 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:24,138 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:24,140 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:24,233 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:24,233 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:24,235 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:24,271 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:24,271 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:24,273 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:24,508 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:24,508 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:24,509 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:24,683 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:24,684 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:24,685 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:24,806 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:24,806 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:24,807 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:25,557 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:25,557 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:25,559 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:26,301 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:26,301 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:26,303 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:26,449 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:26,449 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:26,452 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:26,498 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:26,498 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:26,500 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:26,839 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:26,839 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:26,841 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:26,960 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:26,961 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:26,962 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:26,996 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:26,996 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:26,998 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:27,372 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:27,373 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:27,374 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:27,425 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:27,425 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:27,426 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:27,436 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:27,436 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:27,438 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:28,643 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:28,643 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:28,644 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:28,804 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:28,805 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:28,806 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:29,388 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:29,388 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:29,390 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:29,479 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:29,479 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:29,481 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:30,095 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:30,095 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:30,096 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:30,182 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:30,182 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:30,184 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:30,615 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:30,615 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:30,617 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:33,670 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:33,670 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:33,672 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:33,903 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:33,904 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:33,905 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:34,082 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:34,082 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:34,084 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:34,187 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:34,188 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:34,189 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:34,792 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:34,792 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:34,794 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:35,403 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:35,403 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:35,406 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:35,563 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:35,563 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:35,565 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:35,638 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:35,638 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:35,640 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:36,002 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:36,003 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:36,004 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:36,267 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:36,267 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:36,268 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:36,336 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:36,336 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:36,337 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:36,578 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:36,579 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:36,581 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:37,074 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:37,075 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:37,076 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:37,086 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:37,086 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:37,087 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:37,383 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:37,383 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:37,384 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:37,441 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:37,441 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:37,443 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:38,235 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:38,235 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:38,236 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:38,475 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:38,475 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:38,477 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:39,060 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:39,060 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:39,062 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:39,560 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:39,560 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:39,562 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:39,811 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:39,812 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:39,813 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:39,821 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:39,821 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:39,823 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:40,315 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:40,315 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:40,317 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:40,785 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:40,785 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:40,787 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:41,202 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:41,203 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:41,204 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:41,421 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:41,421 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:41,423 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:41,882 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:41,882 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:41,883 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:42,629 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:42,630 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:42,631 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:42,672 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:42,672 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:42,674 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:43,208 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:43,208 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:43,209 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:43,233 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:43,233 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:43,235 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:43,692 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:43,692 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:43,694 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:44,038 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:44,038 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:44,040 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:44,148 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:44,149 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:44,151 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:44,276 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:44,277 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:44,279 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:45,314 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:45,314 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:45,316 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:45,557 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:45,557 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:45,559 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:45,581 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:45,582 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:45,583 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:45,999 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:45,999 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:46,000 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:46,296 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:46,297 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:46,298 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:46,365 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:46,366 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:46,367 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:47,334 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:47,334 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:47,335 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:47,600 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:47,601 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:47,602 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:47,674 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:47,674 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:47,675 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:47,696 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:47,696 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:47,697 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:47,708 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:47,709 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:47,710 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:49,629 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:49,629 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:49,631 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:50,080 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:50,080 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:50,082 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:50,261 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:50,261 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:50,263 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:50,639 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:50,639 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:50,641 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:50,836 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:50,837 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:50,839 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:51,187 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:51,188 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:51,189 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:51,212 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:51,212 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:51,213 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:51,226 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:51,226 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:51,228 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:51,342 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:51,342 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:51,344 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:51,619 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:51,620 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:51,621 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:07:51,658 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:07:51,658 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:07:51,660 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:02,966 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:08:03,017 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 15:08:05,067 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:08:05,118 - retrieval - CRITICAL - Failed to connect to Kafka as consumer: NoBrokersAvailable
+2024-12-01 15:08:07,062 - retrieval - INFO - Initialized MinIO client.
+2024-12-01 15:08:07,177 - retrieval - INFO - Connected to Kafka topic 'chunk-topic' as consumer.
+2024-12-01 15:08:16,411 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,412 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,418 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,418 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,418 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,448 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,448 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,448 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,450 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,450 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,450 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,452 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,452 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,452 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,514 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,515 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,515 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,517 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,517 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,517 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,519 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,519 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,519 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,569 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,573 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,573 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,575 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,575 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,575 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,576 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,576 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,576 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,578 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,578 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,578 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,579 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,579 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,580 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,581 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,581 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,581 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,582 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,582 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,582 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,583 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,584 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,584 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,585 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,585 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,585 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,587 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,587 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,587 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,588 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,589 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,589 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,590 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:16,590 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:16,590 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:16,591 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:18,071 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:18,072 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:18,073 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:24,372 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:24,372 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:24,374 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:27,695 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:27,695 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:27,697 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
+2024-12-01 15:08:29,351 - retrieval - INFO - Received chunk metadata: {'bucket_name': 'processed-bucket', 'object_name': 'chunks/content_test_file.txt_chunk_1.txt', 'original_file': 'content/test_file.txt', 'chunk_index': 1, 'total_chunks': 1}
+2024-12-01 15:08:29,351 - retrieval - INFO - Retrieving chunk 'chunks/content_test_file.txt_chunk_1.txt' from bucket 'processed-bucket'.
+2024-12-01 15:08:29,353 - retrieval - INFO - Retrieved chunk 'chunks/content_test_file.txt_chunk_1.txt' of size 31 bytes.
